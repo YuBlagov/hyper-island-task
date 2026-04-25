@@ -1,0 +1,17 @@
+:root {
+  /* Colors */
+  --color-primary: #2C2C2C;
+  --color-neutral: #E3E3E3;
+  --color-subtle: transparent;
+  --color-background: #FFFFFF;
+  --color-primary-text: #000000;
+  --color-secondary-text: #757575;
+  --color-accent: #5B4FCF;
+
+  /* Border */
+  --border-brand-default: #5B4FCF;
+  --border-neutral-secondary: #5B4FCF;
+
+  /* Typography */
+  --text-brand-on-brand: #5B4FCF;
+}
