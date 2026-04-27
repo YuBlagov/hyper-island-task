@@ -1,0 +1,21 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox input {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #4B4B5F;
+  border-radius: 2px;
+  background: white;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+  padding: 0;
+}
+
+.checkbox input:focus {
+  outline: 2px solid #94a3b8;
+}

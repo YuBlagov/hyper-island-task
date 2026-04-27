@@ -15,3 +15,20 @@
   /* Typography */
   --text-brand-on-brand: #5B4FCF;
 }
+
+body.dark {
+  --color-primary: #E3E3E3;
+  --color-neutral: #2C2C2C;
+  --color-background: #1a1a1a;
+  --color-primary-text: #FFFFFF;
+  --color-secondary-text: #A0A0A0;
+  --color-accent: #7B6FE0;
+  --border-brand-default: #7B6FE0;
+  --border-neutral-secondary: #7B6FE0;
+  --text-brand-on-brand: #7B6FE0;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-primary-text);
+}
